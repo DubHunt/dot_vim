@@ -206,8 +206,6 @@ let g:ctrlp_map = ''
 " Ensure max height isn't too large. (for performance)
 let g:ctrlp_max_height = 10
 let g:ctrlp_show_hidden = 1
-" Fix new windows opening in split from startify
-let g:ctrlp_reuse_window = 'startify'
 let g:ctrlp_mruf_max = 350
 let g:ctrlp_mruf_default_order = 0
 
@@ -358,30 +356,6 @@ let g:signify_mapping_toggle="<nop>"
 " Makes switching buffers in large repos have no delay
 let g:signify_update_on_bufenter = 0
 let g:signify_sign_overwrite = 0
-
-" ---------------
-" vim-startify
-" ---------------
-let g:startify_list_order = [
-        \ ['   Last modified'],
-        \ 'dir',
-        \ ['   Recent'],
-        \ 'files',
-        \ ]
-let g:startify_skiplist = [
-            \ 'COMMIT_EDITMSG',
-            \ $VIMRUNTIME .'/doc',
-            \ 'bundle/.*/doc',
-            \ ]
-let g:startify_files_number = 10
-let g:startify_custom_indices = ['a', 'd', 'f', 'g', 'h']
-let g:startify_change_to_dir = 0
-
-hi StartifyBracket ctermfg=240
-hi StartifyFooter  ctermfg=111
-hi StartifyHeader  ctermfg=203
-hi StartifyPath    ctermfg=245
-hi StartifySlash   ctermfg=240
 
 " ---------------
 " vim-abolish
