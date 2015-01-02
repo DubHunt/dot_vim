@@ -52,6 +52,7 @@ Plugin 'HelpClose'
 Plugin 'dansomething/vim-visual-star-search'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'tpope/vim-dispatch'
+Plugin 'ponzellus/AnsiEsc'
 " Automatic Helpers
 Plugin 'vim-scripts/SyntaxComplete'
 Plugin 'MarcWeber/vim-addon-local-vimrc'
