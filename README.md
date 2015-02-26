@@ -3,12 +3,12 @@
 ## Installation
 
 
-1. `bash <(curl -s https://raw.githubusercontent.com/dansomething/dot_vim/master/install)`
+1. `bash <(curl -s https://raw.githubusercontent.com/DubHunt/dot_vim/master/install)`
 2. Enjoy enhanced productivity, increased levitation, reduced
    watermelon-related accidents, and startling sex appeal.
 
 ### Manual Install
-1. `git clone http://github.com/dansomething/dot_vim.git ~/.vim`
+1. `git clone http://github.com/DubHunt/dot_vim.git ~/.vim`
 2. `ln -s ~/.vim/vimrc ~/.vimrc`
 3. `ln -s ~/.vim/gvimrc ~/.gvimrc`
 4. Install [Vundle](https://github.com/gmarik/vundle) with `git clone
