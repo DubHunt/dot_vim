@@ -34,7 +34,6 @@ Plugin 'mbbill/undotree'
 Plugin 'jszakmeister/vim-togglecursor'
 Plugin 'kien/rainbow_parentheses.vim'
 " Commands
-Plugin 'dansomething/vim-eclim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
@@ -63,7 +62,6 @@ Plugin 'Valloric/MatchTagAlways'
 if v:version > 703 || (v:version == 703 && has('patch584'))
   Plugin 'Valloric/YouCompleteMe'
 endif
-Plugin 'SirVer/ultisnips'
 Plugin 'dansomething/vim-snippets'
 "Plugin 'honza/vim-snippets'
 Plugin 'szw/vim-tags'
